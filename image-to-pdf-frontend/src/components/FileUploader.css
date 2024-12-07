@@ -1,0 +1,166 @@
+/* General Container Styling */
+.container {
+    max-width: 700px;
+    /*height: 500px; /* Increased height */
+    margin-top: 120px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px;
+    background: rgb(223,161,189);
+    background: linear-gradient(166deg, rgba(223,161,189,1) 0%, rgba(159,148,233,0.8403010862548144) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    /* Flexbox properties to center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    box-sizing: border-box;
+  }
+  
+  /* Title and Description */
+  .title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Align the icon and text vertically */
+  }
+  
+  .pdf-icon {
+    width:60px;  /* Set the desired width */
+    height: 60px; /* Set the desired height */
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Drag-and-Drop Zone */
+  .drop-zone {
+    width: 600px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .drop-zone p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .drop-zone.dragging {
+    border-color: #007bff;
+    background: #f0f8ff;
+  }
+  
+  /* File Input Styling */
+  .file-input {
+    display: none; /* Hide the file input but keep functionality */
+  }
+  
+  /* Image Preview Container */
+  .image-preview-container {
+    margin-top: 20px;
+  }
+  
+  .image-preview-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .image-preview-item {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .image-preview {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .remove-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #dc3545;
+  }
+  
+  /* Button Styling */
+  .upload-button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #bc85a3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #c985aa;
+  }
+  
+  .upload-button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Download Section */
+  .download-container {
+    margin-top: 20px;
+  }
+  
+  .download-text {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4a7ba6;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #40739f;
+  }
+
+  .slogan {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: #444;
+    font-weight: bold;
+    padding: 20px 400px;
+    line-height: 1.4; /* Multiplier of the font size */
+  }
+  
