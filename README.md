@@ -25,7 +25,7 @@ Follow these steps to run **PDFiyMe** locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/dhanushnjay/PDFiyMe.git
+git clone https://github.com/dhanushnjay/Image-To-Pdf-Converter
 
 *Install dependencies*
 Navigate to the project folder and install the required dependencies for both frontend and backend:
